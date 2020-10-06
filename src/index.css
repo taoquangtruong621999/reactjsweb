@@ -11,3 +11,129 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main{
+  /* margin: 0;
+  padding: 0;
+  background-color:rgb(248, 242, 242);
+  height: 100%; */
+  background-color:rgb(248, 242, 242);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.main-right{
+  padding: 20px;
+  flex:2 1 60rem;
+}
+.main-left{
+  flex:1 1 30rem;
+}
+.bottom-right{
+  border: 1px solid cornsilk;
+  border-top: 5px solid skyblue;
+  border-radius: 2px;
+  background-color: white;
+}
+.bottom-right .post img{
+  height: 200px;
+  width: 300px;
+}
+.bottom-right .post{
+  border-bottom:3px solid rgb(248, 242, 242);
+  padding: 10px;
+}
+.post-noidung{
+  margin-right: 538px;
+  float: right;
+  width: 200px;;
+}
+.left-top{
+  background-color: tomato;
+  padding: 20px;
+}
+.left-bottom{
+  background-color: white;
+  height: 100%;
+}
+.noidung .post img{
+  height: 100px;
+  width: 120px
+}
+.noidung .post .post-noidung{
+  margin-right: 160px;
+  float: right;
+  padding: unset;
+}
+.left-bottom .Title{
+  background-color: darkblue;
+  color: white;
+}
+.left-bottom .Title h2{
+  margin-left: 2rem;
+}
+.noidung .post{
+  padding: 20px;
+  border-bottom:2px solid thistle;
+}
+.noidung{
+  display: grid;
+ 
+}
+.tieude{
+  color: white;
+}
+h3{
+  color:lightgray;
+}
+
+.left-top{
+  text-align: center;
+}
+.password{
+  padding: 0.5rem;
+}
+.tieude-newpost{
+  width: 315px;
+  margin-bottom: -20px;
+}
+.tieude-newpost h1{
+  font-size: 1.5rem;
+}
+.noidung-newpost h2{
+  color: lightgray;
+}
+.noidung-newpost{
+  margin-bottom:1rem ;
+}
+.tieude-post h2{
+  font-size: 1.3rem;
+  color:cyan;
+}
+.tieude-post, .noidung-post{
+  width: 730px;
+}
+.author-post h2{
+  width: 730px;
+  font-size: 1rem;
+  color:lightgray ;
+}
+.author-post{
+  margin-bottom: -10px;
+}
+.tieude-post{
+  margin-bottom: -20px;
+}
+#read{
+  background-color: gainsboro;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: .2rem;
+}
+#read :hover{
+  color: blanchedalmond;
+}
+::placeholder{
+  text-align: center;
+}
